@@ -35,8 +35,7 @@ public class Employee {
 		boolean canWrite = k.canWrite();
 		System.out.println(canWrite);
 		//exists
-		boolean exists = k.exists();
-		System.out.println(exists);
+	
 		
 		//print file names
 		File m = new File("C:\\");
@@ -59,6 +58,9 @@ public class Employee {
 		//to read the data in the file
 		List<String>readlines=FileUtils.readLines(k);
 		System.out.println(readlines);
+		
+		boolean exists = k.exists();
+		System.out.println(exists);
 		
 //		
 		
